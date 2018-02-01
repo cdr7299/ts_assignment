@@ -7,7 +7,8 @@ body{
       margin-bottom: 0;
       height: 100%;
       border: 0;
-      border-bottom: 0.7px lightgray solid;
+      border-bottom: 0.3px lightgray solid;
+      box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.1);
       position:relative;
 }
 
@@ -153,16 +154,15 @@ body{
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 150px;
+  min-width: 220px ;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 99;
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 12px;
   list-style:none;
-  #border:0.2px lightgray solid;
+  border:0;
   padding:0;
   margin-top: -12px;
-
 }
 
 .dropdown-contentv2 li{
@@ -191,7 +191,7 @@ body{
   display: block;
   text-align: left;
   margin-left: 10px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 
@@ -205,16 +205,30 @@ body{
 
 .main-content{
 
-  margin-top: 5px;
-  padding-right: 10%;
+  margin-top: 15px;
+  padding-right: 8%;
 
 
 }
 
-.post-container{
+
+#rightsidebar{
+
+
+
+
+}
+
+
+.post-container {
 
   padding-left: 30px;
+ 
+}
 
+.post-container h2{
+
+   font-family: 'proxima_nova_altbold', Georgia, sans-serif;
 
 }
 
@@ -223,8 +237,9 @@ body{
 .img-post-container{
 
   font-family: "open-sans",sans-serif;
-  padding:8px 10px;
+  padding:6px 8px 6px 15px;
   text-align: left;
+
 }
 
 
@@ -238,3 +253,38 @@ body{
   border-radius: 5px;
 }
 
+.trending-tag p{
+
+    padding: 5px ;
+    font-family: "open-sans",sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.11;
+    letter-spacing: .4px;
+    text-align: left;
+    color: #ff8080;
+    display: inline;
+    position: relative;
+
+
+}
+
+.trending-img{
+
+    display: inline;
+}
+
+.post-details{
+
+
+
+
+}
+
+.post-details img{
+
+  width: 40px;
+  height:40px;
+
+  
+}
