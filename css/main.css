@@ -61,7 +61,7 @@ body{
 
 
 .dropdown-content {
-  #margin-top: -10px;
+  #margin-top: -6px;
   margin-left: -10px;
   color:black;
   display: none;
@@ -70,17 +70,17 @@ body{
   min-width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  border-radius: 4px;
+  border-radius: 7px;
   font-size: 15px;
   list-style:none;
-  border:1px lightgray solid;
+  border:0.5px #f4f4f4 solid;
   padding:0;
 }
 
 .dropdown-content li{
 
   
-  border: 0.5px lightgray solid;
+  border: 0.2px #efefef solid;
   width: 100%;
   display: block;
   margin:0 !important;
@@ -168,7 +168,7 @@ body{
 .dropdown-contentv2 li{
 
   
-  border: 0;
+  border: 0.1px #f2f2f2 solid;
   width: 100%;
   display: block;
   margin:0 !important;
