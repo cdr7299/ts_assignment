@@ -66,29 +66,31 @@ body{
 
 .dropdown-content {
   #margin-top: -6px;
-  margin-left: -10px;
+  margin-left: -8px;
   color:black;
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 150px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  border-radius: 7px;
+  border-radius: 4px;
   font-size: 15px;
   list-style:none;
-  border:1px lightgray solid;
+  border:0.7px lightgray solid;
   padding:0;
 }
 
 .dropdown-content li{
 
   
-  border: 0.2px #efefef solid;
+  border: 0.5px #efefef solid;
   width: 100%;
   display: block;
-  margin:0 !important;
+  margin:0 ;
   padding: 5px 0px;
+  border-radius: 4px;
+
 }
 
 
@@ -100,7 +102,7 @@ body{
 .dropdown-content li a {
 
   color: black;
-  padding: 3px 2px;
+  padding: 3px 19px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -157,7 +159,7 @@ body{
   min-width: 220px ;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 99;
-  border-radius: 12px;
+  border-radius: 8px;
   font-size: 12px;
   list-style:none;
   #border:1px solid gray;
@@ -168,11 +170,12 @@ body{
 .dropdown-contentv2 li{
 
   
-  border: 0.1px #f8f8f8 solid;
+  border: 0.5px #f8f8f8 solid;
   width: 100%;
   display: block;
   margin:0 !important;
   padding: 5px 0px;
+  border-radius: 8px;
 
 }
 
@@ -344,6 +347,7 @@ vertical-align: super;
   max-width:150px;
  #   margin-left: 15px;
  height:41px;
+
 }
 
 
@@ -352,7 +356,7 @@ vertical-align: super;
       color: #fff;
   margin-left: -2px;
   margin-bottom: 2px;    
-
+  text-decoration: none;
 }
 
 #fbshare img{
@@ -378,4 +382,16 @@ vertical-align: super;
       padding-right: 15px;
       word-wrap: break-word;
 
+}
+
+#share_on_fb_bottom{
+
+  background-color: #39579a;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
 }
