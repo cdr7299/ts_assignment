@@ -4,12 +4,25 @@ body{
 
 .navbar {
       font-family: 'Proxima Nova', Georgia, sans-serif;
-      margin-bottom: 0;
-      height: 100%;
-      border: 0;
+      #margin-bottom: 0;
+      height: 100px;
+      border: 0.1px solid black;
       border-bottom: 0.3px lightgray solid;
       box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.1);
-      position:relative;
+      position:fixed;
+      top:0;
+      right:0;
+      left:0;
+      z-index: 999;
+      #overflow: hidden;
+      background-color: white;
+      transition: top 1s ease-in-out;
+}
+
+.nav-up{
+
+  top: -100px;
+
 }
 
 .sidenav {
@@ -18,12 +31,6 @@ body{
       height: 100%;
    }
     
-    /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
 
 .main{
 
@@ -71,7 +78,7 @@ body{
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 180px;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   border-radius: 4px;
@@ -208,7 +215,7 @@ body{
 
 .main-content{
 
-  margin-top: 25px;
+  margin-top: 125px;
   padding-right: 8%;
 
 
@@ -226,6 +233,7 @@ body{
 .post-container {
 
   padding-left: 30px;
+
  
 }
 
@@ -361,7 +369,7 @@ vertical-align: super;
 
 #fbshare img{
 
-  margin-bottom: 3px;
+  margin-bottom: 4px;
   height: 23px;
   width:23px;
 
@@ -393,5 +401,93 @@ vertical-align: super;
     border-radius: 5px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+#share_on_fb_bottom a{
+
+      color: #fff;
+      font-size: 17px;
+      text-decoration: none;
+}
+
+#download_app_container{
+
+      background-color: #f8e71c;
+      padding: 20px 35px 20px 20px;
+      max-width: 585px;
+      margin-left: 10px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      border-radius: 5px;
+  }
+
+
+
+#download_app_content{
+
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: .4px;
+  text-align: left;
+  color: #286174;
+
+}
+
+
+
+#download_app_links img {
+    display: inline-block;
+    height: 40px;
+}
+
+.rating_header{
+    color: #000;
+    font-size: 20px;
+    font-family: "Open Sans";
+    margin: 20px 0 0 20px;
+
+}
+
+.blog_rating_container{
+  margin: 35px 20px 150px 0;
+
+}
+
+.percent_container {
+    position: absolute;
+    min-width: 30px;
+    top: 0;
+    right: 5px;
+    z-index: 1;
+    color: #fff;
+    font-size: 10px;
+    font-family: "Open Sans";
+    border-radius: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #50e3c2;
+}
+
+.rating_btn_container img {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    bottom: 0;
+    width: 75px;
+    height: 75px;
+    transition: width .5s,height .5s;
+}
+
+.rating_btn_container .bottom_text {
+    position: absolute;
+    left: 20px;
+    right: 0;
+    bottom: -125px;
+    font-size: 14px;
+    color: #000;
+    font-family: "Open Sans";
 }
