@@ -596,3 +596,15 @@ vertical-align: super;
   
 
 }
+
+#loading{
+  display: none;
+}
+
+#loading img{
+
+
+  margin-left:45%;
+  height: 54px;
+  width: 75px;
+}

@@ -1,0 +1,85 @@
+
+         <div class="col-sm-6">
+                  <div class="row card_container">
+                      <div class="feed-card">
+                              <div class="col-sm-6 pull-left about-content">
+                                        <div class="content-category">
+                                          <h4> Parenting </h4>
+                                         </div>
+                                        
+                                         <div class="content-title">
+                                            <h3>Co-sleeping With Your Baby Can Be Dangerous</h3>
+                                          </div>  
+                                    <div class="post-details">
+                                        <div class="author-image"> 
+                                        <img src="img/circular_tinystep_logo.png"> 
+                                        </div>
+                                        <div class="post-details-ext">
+                                              <div class="author">
+                                                <h7> TinyStep Editorial</h7>
+                                              </div>  
+                                               <div>
+                                                <p> 24th November 2017</p>
+                                              
+                                              </div>
+                                      </div>
+                                    </div>
+                  
+
+                              </div>
+
+                            
+                                <img class=" feed_card_img pull-right col-sm-6" src="https://dynamic-cdn.tinystep.in/image/600x600/admin-panel-image-fa27d8e6-af69-43fc-9e93-9179d0206dba-1517299596591.jpeg">
+                          
+                            
+
+
+                        </div>
+
+                    </div>
+
+
+              </div> 
+
+
+         <div class="col-sm-6">
+                  <div class="row card_container">
+                      <div class="feed-card">
+                              <div class="col-sm-6 pull-left about-content">
+                                        <div class="content-category">
+                                          <h4> Pregnancy</h4>
+                                         </div>
+                                        
+                                         <div class="content-title">
+                                            <h3>Expect The Unexpected During Pregnancy</h3>
+                                          </div>  
+                                    <div class="post-details">
+                                        <div class="author-image"> 
+                                        <img src="img/circular_tinystep_logo.png"> 
+                                        </div>
+                                        <div class="post-details-ext">
+                                              <div class="author">
+                                                <h7> S.Reddy </h7>
+                                              </div>  
+                                               <div>
+                                                <p> 24th January 2018</p>
+                                              
+                                              </div>
+                                      </div>
+                                    </div>
+                  
+
+                              </div>
+
+                            
+                                <img class=" feed_card_img pull-right col-sm-6" src="https://dynamic-cdn.tinystep.in/image/600x600/admin-panel-image-9f694c85-840e-4f33-b221-e1c3a78a34fa-1517212588702.jpeg">
+                          
+                            
+
+
+                        </div>
+
+                    </div>
+
+
+              </div> 
